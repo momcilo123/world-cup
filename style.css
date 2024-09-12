@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+#groups {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.group {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+}
+
+.group h2 {
+    margin-top: 0;
+}
+
+.team {
+    list-style: none;
+    padding: 5px 0;
+}
